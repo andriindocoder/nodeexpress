@@ -1,0 +1,29 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "create website using node and expressjs app",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriindocoder/nodeexpress.git"
+  },
+  "keywords": [
+    "nodeexpress"
+  ],
+  "author": "andri indocoder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andriindocoder/nodeexpress/issues"
+  },
+  "homepage": "https://github.com/andriindocoder/nodeexpress#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "reload": "^2.3.1",
+    "socket.io": "^2.1.1"
+  }
+}
